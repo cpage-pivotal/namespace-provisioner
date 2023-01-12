@@ -18,8 +18,8 @@ roleRef:
 apiVersion: v1
 kind: Secret
 metadata:
-name: developer-token
-annotations:
- kubernetes.io/service-account.name: developer-sa
-type: kubernetes.io/service-account-token
+  name: developer-token
+  annotations:
+   kubernetes.io/service-account.name: developer-sa
+  type: kubernetes.io/service-account-token
 ---
