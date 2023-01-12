@@ -21,5 +21,5 @@ metadata:
   name: developer-token
   annotations:
    kubernetes.io/service-account.name: developer-sa
-  type: kubernetes.io/service-account-token
+type: kubernetes.io/service-account-token
 ---
