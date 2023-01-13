@@ -6,7 +6,7 @@ metadata:
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: tap-gui-read-k8s
+  name: developer-role-binding
 subjects:
 - kind: ServiceAccount
   name: developer-sa
