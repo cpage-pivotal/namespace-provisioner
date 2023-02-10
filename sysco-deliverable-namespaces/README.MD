@@ -2,7 +2,7 @@
 
 Deliverable namespaces to be provisioned to the run cluster
 
-Sample Carvel resource to sync this folder to the run cluster. tap-install-sa must be created
+Sample Carvel resource to sync this folder to the run cluster.
 
 ```
 apiVersion: kappctrl.k14s.io/v1alpha1
