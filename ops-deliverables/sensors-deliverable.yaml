@@ -2,6 +2,7 @@ apiVersion: carto.run/v1alpha1
 kind: Deliverable
 metadata:
   name: spring-sensors-tap-demos-w06-s519
+  namespace: deliverable-sensors
   labels:
     app.tanzu.vmware.com/deliverable-type: web
     app.kubernetes.io/part-of: spring-sensors
